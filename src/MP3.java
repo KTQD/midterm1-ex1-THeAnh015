@@ -1,6 +1,6 @@
   class MP3 extends Item{
     private int duration;
-     public M3P (String name, String description, String ID, float price, int duration){
+     public MP3 (String name, String description, String ID, float price, int duration){
        super(name, description, ID, price);
        this.duration = duration;
      }
