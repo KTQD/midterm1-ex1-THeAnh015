@@ -1,10 +1,10 @@
 abstract class Item {
-  public String name;
+    public String name;
     private String description;
     protected String ID;
     float price;
-   
-  public Item(String name, String description, String ID, float price) {
+
+    public Item(String name, String description, String ID, float price) {
         this.name = name;
         this.description = description;
         this.ID = ID;
@@ -18,6 +18,6 @@ abstract class Item {
     public void setDescription(String description) {
         this.description = description;
     }
-astract void show Info();
-    
+
+    abstract void showInfo();
 }
