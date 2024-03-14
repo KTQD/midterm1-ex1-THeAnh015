@@ -9,7 +9,7 @@ class Book extends Item {
         this.numberOfPages = numberOfPages;
         this.genre = genre;
     }
-      void showInfo() {
-        System.out.println("Book - Name: " + name + ", Descriptifon: " + getDescription() + ", ID: " + ID + ", Price: " + price + ", Author: " + author + ", Number of Pages: " + numberOfPages + ", Genre: " + genre);
+    void showInfo() {
+        System.out.println("Book - Name: " + name + ", Description: " + getDescription() + ", ID: " + ID + ", Price: " + price + ", Author: " + author + ", Number of Pages: " + numberOfPages + ", Genre: " + genre);
     }
 }
