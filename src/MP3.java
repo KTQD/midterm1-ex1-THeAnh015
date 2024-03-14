@@ -7,7 +7,9 @@
 
     void showInfo()
     {
-      System.out.println("M3P - Name: "+ name + ", Description:" + getDescription)
+      System.out.println("MP3 - Name: " + name + ", Description: " + getDescription() + ", ID: " + ID + ", Price: " + price + ", Duration: " + duration + " minutes");
     }
     
     }
+    
+  
